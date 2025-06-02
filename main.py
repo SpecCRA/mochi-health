@@ -81,7 +81,7 @@ with st.form("mood_log"):
 
 # Draw bar chart
 mood_data = load_sheet(sheet)
-st.write(mood_data)
 chart = create_day_hist(mood_data, TODAY_DATE)
 
+st.write("Mood Counts Today")
 st.plotly_chart(chart)
