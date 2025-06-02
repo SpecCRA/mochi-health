@@ -1,6 +1,6 @@
 # Mochi Health - Streamlit App
 
-Foobar is a Python library for dealing with word pluralization.
+This repo contains code for a Streamlit app for Mochi Health's take home assessment. Credentials are logged in a separate file not included in the repo.
 
 ## App Usage
 
@@ -10,11 +10,11 @@ The graph below displays counts of logged moods from today's date.
 
 ## Python Libraries
 
-* Streamlit
-* Pandas
-* Plotly
-* gspread
-* google sheets API
+* Streamlit 1.45.1
+* Pandas 2.2.3
+* Plotly 6.1.2
+* gspread 6.2.1
+* google sheets API - see Google Cloud Services website
 
 ## Data
 
